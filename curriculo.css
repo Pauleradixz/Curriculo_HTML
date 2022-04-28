@@ -21,7 +21,7 @@ main {
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.1)
   );
-  border-radius: 2%;
+  border-radius: 20px;
   z-index: 3;
   backdrop-filter: blur(2rem);
   display: flex;
@@ -68,10 +68,11 @@ transition: all 1s;
   );
   justify-content: center;
   align-items: center;
-  border-radius: 6%;
+  border-radius: 20px;
   padding: 8px;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  height: inherit;
 }
 
 .h2 {
