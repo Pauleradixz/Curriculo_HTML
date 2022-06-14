@@ -53,10 +53,11 @@ main {
   bottom: 5%;
 }
 
-.circle1:hover,.circle2:hover{
-    width: 25rem;
-    height: 25rem;
-transition: all 1s;
+.circle1:hover,
+.circle2:hover {
+  width: 25rem;
+  height: 25rem;
+  transition: all 1s;
 }
 
 .dashboard {
@@ -92,12 +93,11 @@ transition: all 1s;
   height: 200px;
   border-radius: 20%;
   transition: all 0.3s;
-
 }
 
-.photo:hover{
-    height: 220px;
-    transition: all 0.3s;
+.photo:hover {
+  height: 220px;
+  transition: all 0.3s;
 }
 
 .dashFooter {
@@ -116,31 +116,30 @@ transition: all 1s;
   min-height: 250px;
 }
 
-table{
-    position: relative;
-    height: 100%;
-    padding: 10px;
-    align-items: center;
+table {
+  position: relative;
+  height: 100%;
+  padding: 10px;
+  align-items: center;
 }
-a{
-    font-size:x-large;
-    font-weight: bolder;
-    color: #7f08b2;
-    transition: all 1s;
-
-}
-
-a:hover{
-    color: lightblue;
-    font-size: xx-large;
-    transition: all 0.5s;
-    text-decoration: none;
+a {
+  font-size: x-large;
+  font-weight: bolder;
+  color: #7f08b2;
+  transition: all 1s;
 }
 
-tr{
-    transition: all 0.2s;
+a:hover {
+  color: lightblue;
+  font-size: xx-large;
+  transition: all 0.5s;
+  text-decoration: none;
 }
 
-tr:hover{
-    font-size: large;
+tr {
+  transition: all 0.2s;
+}
+
+tr:hover {
+  font-size: large;
 }
